@@ -1,0 +1,26 @@
+.Header {
+    padding: 1em;
+    /*background: linear-gradient(to left top, white, #50ffbc);*/
+    background: transparent;
+    display: grid;
+    grid-template-columns: 220px auto;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 1.5em;
+}
+.Menu {
+    text-align: center;
+}
+.Menu-opcion {
+    color: #CECECF;
+    text-decoration: none;
+    padding: 1em;
+}
+.Menu-opcion:hover {
+    background: linear-gradient(180deg, black, #307cd5);
+    text-decoration: revert;
+    font-size: 1.075em;
+}

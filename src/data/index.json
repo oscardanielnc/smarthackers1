@@ -1,0 +1,52 @@
+{
+    "nombre": "Oscar Daniel",
+    "apellido": "Navarro Cieza",
+    "informacion": [
+        "Estudiante de la especialidad de Ingeniería Informática en la PUCP. Actual Director de Economía de la Asociación de Alumnos de Ingeniería Informática y director organizador de la feria estudiantil tecnológica Infosoft 2021.",
+        "Indicadores altos en trabajo en equipo, resolución de problemas, comunicación efectiva y responsabilidad. Mi objetivo principal es desarrollar mis conocimientos y habilidades con el fin de apoyar a mi área de trabajo y generar valor a la organización."
+    ],
+    
+    "nacionalidad": null,
+    "edad": 20,
+    "especialidad": "Ingenieria informatica",
+    "img": "https://media-exp1.licdn.com/dms/image/C5603AQEowXTcVMv12Q/profile-displayphoto-shrink_200_200/0/1630334954326?e=1647475200&v=beta&t=KeVltBpwfzo59_YiVn4rXvuE5fGbq8YI5yJOAKVBWN4",
+    "personalidad": [
+        "Proactivo",
+        "Creativo",
+        "Introvertido",
+        "No usa mucho las redes sociales",
+        "Es una persona privada",
+        "Amante del futbol"
+    ],
+    "habilidades": [
+        "Proactivo",
+        "Creativo",
+        "Confiable",
+        "C, C# y C++",
+        "SQL",
+        "AWS",
+        "Javascript",
+        "Python",
+        "UX/UI"
+    ],
+    "redes": [
+        "facebook",
+        "whatsapp",
+        "linkedin",
+        "instagram",
+        "spotify"
+    ],
+    "navegadores": [
+        "chrome",
+        "safari"
+    ],
+    "dispositivos": [
+        "android",
+        "appleinc"
+    ],
+    "destacar": [
+        "Se encuentra en búsqueda de un empleo.",
+        "No publica mucho en las redes sociales.",
+        "Interesado en temas de AI, ML y Data Analytics."
+    ]
+}

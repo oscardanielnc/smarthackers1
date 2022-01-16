@@ -1,0 +1,154 @@
+.Resultado {
+    background: white;
+    color: white;
+    display: flex;
+}
+    .Resultado-page {
+        background: white;
+        width: 1024px;
+        margin: 1em auto;
+        background: #121E24;
+        padding: 1em;
+    }
+        .Perfil {
+            display: grid;
+            grid-template-rows: auto auto auto auto;
+            background: #1D2B33;
+            padding: 1em;
+            width: calc(100% - 2em);
+            gap: 1em;
+        }
+        .Perfil-nombre-descarga {
+            margin-bottom: 1em;
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .icon-nube {
+            font-size: 2em;
+            cursor: pointer;
+        }
+        .Perfil-nombre {
+                padding: 6px;
+                background: #0865C4;
+                display: inline;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 1.25em;
+                line-height: 1.25em;
+                letter-spacing: 8.2px;
+                text-transform: uppercase;
+                padding-right: 3.5em;
+            }
+        .Perfil-triangulo {
+            display: inline;
+            border-right: 2.5em solid transparent;
+            border-top: 2.5em solid #0865c4;
+            position: relative;
+        }
+        .Perfil-descarga {
+            margin: auto 20px auto auto;
+        }
+        .Perfil-nombre span {
+                margin-left: 0.5em;
+            }
+        .Perfil-basico {
+            display: grid;
+            gap: 3em;
+            grid-template-columns: 1fr 1fr;
+        }
+        .Perfil-basico-imgContainer {
+                border-radius: 7px;
+                background: #0865C4;
+                padding: 1em;
+                text-align: center;
+            }
+                .Perfil-basico-imgContainer img {
+                    border-radius: 50%;
+                    width: 200px;
+                }
+                .Perfil-basico-datos {
+                    text-align: left;
+                }
+            .Perfil-basico-info {
+                display: grid;
+                width: auto;
+
+            }
+        .Perfil-historial { 
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+            .Perfil-historial-colunm {
+                padding: 1em;
+            }
+            .Perfil-historial-list {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            .Perfil-historial-colunm.left p{
+                margin: 10px 0;
+            }
+            .Perfil-historial-colunm.left p::before{
+                margin-right: 24px;
+                background: #C44656;
+                vertical-align: middle;
+                padding: 4px;
+                position: relative;
+                content: "";
+                font-size: 1px;
+                border-radius: 50%;
+                border: 1px solid white;
+            }
+            .Perfil-historial-colunm.left .Perfil-historial-list.b {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            .Perfil-historial-list.b p::before{
+                background: #276CD2;
+            }
+            .Perfil-historial-colunm.left h4{
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: #c3c3c3;
+            }
+            .Perfil-historial-colunm.right h4{
+                color: #c3c3c3;
+                font-size: .8em;
+                letter-spacing: 6px;
+            }
+            .Perfil-historial-colunm.right h4 strong{
+                color: #fff;
+                font-size: 1.7em;
+                letter-spacing: 2px;
+            }
+            .Perfil-historial-colunm.right .Perfil-historial-row {
+                margin-bottom: 3em;
+            }
+            .icon-redes-estilos {
+                background: #ffffffb0;
+                font-size: 1.5em;
+                border-radius: 50%;
+                padding: 8px;
+                margin-right: 10px;
+            }
+            .icon-redes-estilos::before {
+                color: #1D2B33;
+            }
+        .Perfil-destacado {
+            background: linear-gradient(
+                170deg, #0865c4, #26ccc0);
+            padding: 2em;
+            border-radius: 8px;
+        }
+            .Perfil-destacado h3 {
+                font-family: monospace;
+                font-size: 2em;
+                margin: 0 0 16px 0;
+                letter-spacing: 2px;
+            }
+            .Perfil-destacado li {
+                list-style-type: decimal;
+                margin-bottom: 8px;
+                font-weight: 500;
+            }

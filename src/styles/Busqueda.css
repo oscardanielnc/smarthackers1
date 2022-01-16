@@ -1,0 +1,103 @@
+.Busqueda {
+    display: grid;
+    height: calc(100vh - 4.5em);
+}
+.Busqueda-contenido {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.titulo {
+    color: white;
+    font-size: 2.5em;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+}
+.subtitulo {
+    color: white;
+    font-weight: normal;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-size: 1.2em;
+    color: #CECECF;
+}
+.buscador {
+    margin-top: 4em;
+    text-align: center;
+    position: relative;
+}
+.buscador-text {
+    border-radius: 40px;
+    padding: 12px 120px 12px 30px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 0.861538px solid rgba(255, 255, 255, 0.6);
+    color: white;
+    position: relative;
+    margin-left: 44px;
+}
+.buscador-buttom {
+    cursor: pointer;
+    position: relative;
+    left: -38px;
+    top: 8px;
+    text-decoration: none;
+}
+.buscador-buttom-bu {
+    width: 30px;
+    height: 30px;
+    background: #307cd5;
+    border: #307CD5;
+    border-radius: 50%;
+}
+.buscador-icon {
+    cursor: pointer;
+    position: relative;
+    left: -22px;
+    top: -6px;
+    color: white;
+}
+.Busqueda-footer {
+    background: #F7F7F7;
+    color: #4c4c4c;
+    margin-top: 6em;
+    padding: 1.2em;
+}
+.Busqueda-footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    gap: 20px;
+    margin: auto;
+    
+}
+.Panda {
+    text-align: center;
+}
+.Panda img {
+    width: 20em;
+}
+.Contacto a {
+    color: #4c4c4c;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+    display: block;
+    margin-top: 8px;
+}
+.Contacto a:hover {
+    box-shadow: 15px 6px 14px 1px;
+}
+.Contacto a::before {
+    color: #0a66c2;
+    font-size: 2em;
+    vertical-align: middle;
+    position: relative;
+    left: -15px;
+}
